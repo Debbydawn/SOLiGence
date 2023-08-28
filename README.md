@@ -18,14 +18,6 @@ Solent Intelligence (SOLiGence) is dedicated to empowering your cryptocurrency t
 
 - **Predictions:** Predict cryptocurrency price volatility using Linear Regression. Select one or more cryptocurrencies and visualize the predicted values.
 
-## Getting Started
-
-To run the Streamlit app locally, follow these steps:
-
-1. Install the required Python libraries:
-   ```bash
-   pip install streamlit pandas matplotlib scikit-learn yfinance yahoofinancials numpy
-
 
 ## Getting Started
 
