@@ -54,12 +54,4 @@ Connect with us on social media:
 ## Privacy and Disclaimer
 
 Please refer to our Privacy Policy and Disclaimer for more information.
-
----
-
-**Note:** This README is a sample template. Please update it with accurate and relevant information specific to your project.
-```
-
-Remember to replace `"YourUsername"` with your actual GitHub username and ensure that the file paths, links, and descriptions are accurate for your project. Feel free to further customize the README to match your project's branding and details.
-
    
