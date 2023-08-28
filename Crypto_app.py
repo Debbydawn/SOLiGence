@@ -33,19 +33,7 @@ if side_bars == "Home":
         st.image('sal.jpg', use_column_width=True)
         if 'section' not in st.session_state:
             st.session_state.section = "Home"
-        # Quick Links
-        # st.write("Quick Links:")
-        # if st.button("About Us"):
-        #     st.session_state.section = "About Us"  # Set the section to "About Us"
-
-        # if st.button("Dataset"):
-        #     st.session_state.section = "Dataset"  # Set the section to "Dataset"
-
-        # if st.button("Visualizations"):
-        #     st.session_state.section = "Visualizations"  # Set the section to "Visualizations"
-
-        # if st.button("Predictions"):
-        #     st.session_state.section = "Predictions"  # Set the section to "Predictions"
+       
 
 
 
@@ -68,13 +56,7 @@ if side_bars == "Home":
         # Privacy and Disclaimer
         st.write("Privacy Policy | Disclaimer")
         
-        # Sidebar sections
-        # with st.sidebar.expander("About Us", expanded=(st.session_state.section == "About Us")):
-        #     st.write("Welcome to the About Us section!")
-        # # You can add content related to "About Us" here
-        #     st.title("About Solent Intelligence Ltd.")
-        #     st.write("The scale of this organization's operation is impressive, with millions of subscribers and over 150 billion pounds worth of investments. This emphasizes the substantial influence that data-driven decisions can have on managing such a significant amount of assets. The app's focus on implementing an Intelligent Coin Trading (IST) platform, specifically tailored for crypto coin predictions, resonates deeply with me. The idea of utilizing AI to predict cryptocurrency prices on different timeframes, such as daily, weekly, monthly, and quarterly, truly piques my interest. This approach aligns perfectly with my desire to explore how AI can shape and enhance our daily lives. The app's ability to recommend trading opportunities by analyzing AI-generated predictions showcases the tangible applications of data science in the financial world. Considering a more neutral perspective, while the concept of the app is exciting, there are potential challenges that need to be acknowledged. Cryptocurrency markets are known for their volatility, and even the most sophisticated AI predictions might not always be entirely accurate. Users relying solely on these predictions could face risks if market conditions change unexpectedly.")
-       
+        
 if side_bars == "About Us":
     st.title("About Solent Intelligence Ltd.")
     st.write("The scale of this organization's operation is impressive, with millions of subscribers and over 150 billion pounds worth of investments. This emphasizes the substantial influence that data-driven decisions can have on managing such a significant amount of assets. The app's focus on implementing an Intelligent Coin Trading (IST) platform, specifically tailored for crypto coin predictions, resonates deeply with me. The idea of utilizing AI to predict cryptocurrency prices on different timeframes, such as daily, weekly, monthly, and quarterly, truly piques my interest. This approach aligns perfectly with my desire to explore how AI can shape and enhance our daily lives. The app's ability to recommend trading opportunities by analyzing AI-generated predictions showcases the tangible applications of data science in the financial world. Considering a more neutral perspective, while the concept of the app is exciting, there are potential challenges that need to be acknowledged. Cryptocurrency markets are known for their volatility, and even the most sophisticated AI predictions might not always be entirely accurate. Users relying solely on these predictions could face risks if market conditions change unexpectedly.")
@@ -148,22 +130,7 @@ if side_bars == "Visualizations":
     else:
         st.write('Select one or more cryptocurrencies from the sidebar to plot.')
 
-    # # Sidebar for user input
     
-    # selected_crypto = st.sidebar.selectbox('Select a cryptocurrency:', data['Crypto'].unique())
-    
-    # # Filter data for the selected cryptocurrency
-    # filtered_data = data[data['Crypto'] == selected_crypto]
-    # # Display selected cryptocurrency's price chart
-    
-    # st.write(f'Price Chart for {selected_crypto}')
-    # plt.figure(figsize=(10, 6))
-    # plt.plot(filtered_data['Date'], filtered_data['Price'], marker='o')
-    # plt.xticks(rotation=45)
-    # plt.xlabel('Date')
-    # plt.ylabel('Price')
-    # st.pyplot(plt)
-
 
 if side_bars == "Predictions":
     st.title('Cryptocurrency Price Volatility Example')
@@ -255,3 +222,36 @@ if side_bars == "Predictions":
 #     st.pyplot(plt)
    
     
+# # SOLiGence - Solent Intelligence
+
+# Welcome to SOLiGence, a leading financial multinational organization specializing in stock and shares, savings, and investments.
+
+# ## About Us
+
+# At SOLiGence, we are committed to providing top-tier financial services and solutions to our clients. With our expert team and years of experience in the industry, we strive to offer the best investment opportunities, personalized advice, and comprehensive solutions to help you achieve your financial goals.
+
+# ## Our Services
+
+# 1. **Stock and Shares**: We offer a wide range of options for investing in the stock market. Our team of experts analyzes market trends and provides insights to help you make informed decisions.
+
+# 2. **Savings**: We understand the importance of savings for a secure future. Our tailored savings plans ensure that you can build a financial cushion to meet unexpected expenses.
+
+# 3. **Investments**: Whether you're a novice investor or an experienced one, we provide investment opportunities that align with your risk tolerance and financial objectives.
+
+# ## Why Choose SOLiGence?
+
+# - **Expertise**: Our team consists of financial experts who are well-versed in market trends and investment strategies.
+
+# - **Personalized Approach**: We understand that every client has unique financial needs. Our solutions are customized to suit your individual goals.
+
+# - **Transparency**: We believe in transparency in all our transactions and provide clear insights into investment performance and market developments.
+
+# ## Contact Us
+
+# For more information about our services or to schedule a consultation, please contact us at:
+
+# - Website: [www.soligence.com](https://www.soligence.com)
+# - Email: info@soligence.com
+# - Phone: +1-123-456-7890
+
+# Join SOLiGence today and let us help you build a brighter financial future!
